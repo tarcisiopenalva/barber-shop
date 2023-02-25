@@ -20,7 +20,7 @@ body {
     position: relative;
     background-size: cover;
     background-image: url(../images/bg-home.jpg);
-    height: 100vh;   
+    height: 98vh;   
 }
 
 .home .header {
@@ -97,3 +97,15 @@ body {
     margin-bottom: 15px;
 }
 
+/**********************
+*      ABOUT
+***********************/
+
+.about {
+    background-color: var(--primary-color);
+    height: 100vh;
+}
+
+.about .content {
+    display: flex;
+}
