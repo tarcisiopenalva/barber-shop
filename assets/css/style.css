@@ -12,6 +12,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 /**********************
 *          HOME
 ***********************/
@@ -106,6 +111,66 @@ body {
     height: 100vh;
 }
 
-.about .content {
+.about .container {
     display: flex;
 }
+
+.about .timing {
+    width: 33%;
+    padding: 20px;
+    background-image: url(../images/brush-big.jpg);
+}
+
+.about .timing .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about .timing .cut-icon {
+    width: 50px;
+}
+
+.about .timing h3{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--primary-color);
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.about .timing .text {
+    margin: 10px 0;
+}
+
+.about .timing .text:after {
+    content: '•';
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.about .timing .text:last-of-type:after {
+    content: '|';
+}
+
+.about .timing .text h4 {
+    color: #808080;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.about .timing span {
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+}
+
+.about .experiencie {
+    width: 67%;
+}
+
+
+
