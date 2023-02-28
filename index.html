@@ -12,28 +12,28 @@
 </head>
 <body>
 
-    <section class="home">
+    <section  id="home" class="home">
         <header class="header">
             <nav class="nav">
                 <Ul>
                     <li> 
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
-                    <li> <a href="#">Sobre</a>
+                    <li> <a href="#about">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Serviços</a>
+                        <a href="#services">Serviços</a>
                     </li>
                     <li>
                         <img class="logo" src="assets/images/logo.png" class="logo" alt="Barber Shop">
                     </li>
                     <li>
-                        <a href="#">Galeria</a>
+                        <a href="#gallery">Galeria</a>
                     </li>
                     <li>
-                        <a href="#">Agendamento</a>
+                        <a href="#appointment">Agendamento</a>
                     </li>
-                        <li> <a href="#">Localização</a>
+                        <li> <a href="#location">Localização</a>
                     </li>
                 </Ul>
             </nav>
@@ -47,7 +47,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="timing">
                 <div class="overlay">
@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section  id="services" class="services">
         <div class="container">
             <h2>Nossos Serviços</h2>
             <img src="assets/images/heading-ic.png" alt="Serviços">
@@ -135,6 +135,136 @@
             </div>
         </div>
     </section>
+
+    <section  id="gallery" class="gallery">
+        <div class="container">
+            <h2>Galeria de Fotos</h2>
+            <img src="assets/images/heading-ic.png" alt="Galeria de Fotos">
+        </div>
+
+        <div class="gallery-wrapper">
+            <div>
+                <img src="assets/images/gallery-img1.png" alt="Galeria">
+            </div>
+            <div>
+                <img src="assets/images/gallery-img2.png" alt="Galeria">
+            </div>
+            <div>
+                <img src="assets/images/gallery-img3.png" alt="Galeria">
+            </div>
+            <div>
+                <img src="assets/images/gallery-img4.png" alt="Galeria">
+            </div>
+            <div>
+                <img src="assets/images/gallery-img5.png" alt="Galeria">
+            </div>
+            <div>
+                <img src="assets/images/gallery-img6.png" alt="Galeria">
+            </div>
+            <div>
+                <img src="assets/images/gallery-img7.png" alt="Galeria">
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <h2>Faça um Agendamento</h2>
+            <img src="assets/images/heading-ic-white.png" alt="Faça um agendamento">
+
+            <form>
+                <div class="personal-data">
+                    <div class="input-wrapper">
+                        <label>Nome</label>
+                        <input type="text" placeholder="Digite o seu nome">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label>E-mail</label>
+                        <input type="email" required placeholder="Digite o seu email">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label>Telefone</label>
+                        <input type="tel" required placeholder="Digite o seu telefone">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label>Tipo de Serviço</label>
+                        <select>
+                            <option>-selecione-</option>
+                            <option>Cortar Cabelo</option>
+                            <option>Cortar Cabelo/Barba</option>
+                        </select>
+                    </div>
+                </div>
+                    <div class="input-wrapper">
+                        <label>Mensagem</label>
+                        <textarea></textarea>
+                    </div>
+
+                    <button>Enviar</button>
+            </form>
+
+        </div>
+    </section>
+
+    <section id="location" class="location">
+        <div class="container">
+            <div class="head">
+                <div class="info">
+                    <div class="icon">
+                        <img src="assets/images/map-img1.png" alt="Localização">
+                    </div>
+                    <div class="text">
+                        <span>Localização</span>
+                        <span>Rua Matrix, 33</span>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon">
+                        <img src="assets/images/map-img2.png" alt="Localização">
+                    </div>
+                    <div class="text">
+                        <span>Telefone</span>
+                        <span>(11) 99999-9999</span>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon">
+                        <img src="assets/images/map-img3.png" alt="Localização">
+                    </div>
+                    <div class="text">
+                        <span>E-mail</span>
+                        <span>contato@barbershop.com</span>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icon">
+                        <img src="assets/images/map-img4.png" alt="Localização">
+                    </div>
+                    <div class="text">
+                        <span>Horário</span>
+                        <span>Seg. à Sex.: 9AM às 17PM</span>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.315382277114!2d-38.472283278160184!3d-12.993732409213465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4117f471a3%3A0x84ac79531e1d7cab!2sItaigara%2C%20Salvador%20-%20BA%2C%2040301-155!5e0!3m2!1spt-BR!2sbr!4v1677621787512!5m2!1spt-BR!2sbr" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+       2023 Barber Shop - Powered by Tarcísio Penalva
+       -
+       Todos os direitos reservados
+    </footer>
     
 </body>
 </html>
