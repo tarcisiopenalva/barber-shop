@@ -1,5 +1,7 @@
 :root {
     --primary-color: #917758;
+    --secondary-color: #3c2915;
+    --primary-color-light: #f5eee6;
 }
 * {
     margin: 0;
@@ -108,7 +110,6 @@ body {
 
 .about {
     background-color: var(--primary-color);
-    height: 100vh;
 }
 
 .about .container {
@@ -116,6 +117,8 @@ body {
 }
 
 .about .timing {
+    position: relative;
+    margin: -50px;
     width: 33%;
     padding: 20px;
     background-image: url(../images/brush-big.jpg);
@@ -168,9 +171,75 @@ body {
     display: block;
 }
 
-.about .experiencie {
+.about .experience {
     width: 67%;
+    color: #ffffff;
+    margin-left: 7%;
+    margin-top: 100px;
 }
 
+.about .experience h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
 
+.about .experience h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #a38f78;
+    margin: 20px 0;
+}
 
+.about .experience .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .experience .text p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+/**********************
+*      SERVICES
+***********************/
+
+.services {
+    background-color: var(--primary-color-light);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.services .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.services .box {
+    border: 3px solid var(--primary-color);
+    padding: 50px 40px;
+    margin: 30px;
+}
+
+.services .box h4 {
+    color: var(--secondary-color);
+    margin-top: 30px;
+}
+
+.services .box p {
+    color: var(--secondary-color);
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
